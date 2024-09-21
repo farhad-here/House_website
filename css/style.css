@@ -1,0 +1,181 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+/* main menu intro section */
+.mainPage .intro h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #001F3F;
+}
+
+.mainPage .intro a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.button-intro a{
+    background-color: black;
+}
+/* room section */
+
+.room .header-room{
+    color: gold;
+    font-weight: lighter;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.cards .card1 a{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.cards .card2 a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.cards .card3 a{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/* for house section */
+.frame-house .header-house{
+    color: black;
+    font-weight: lighter;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+/* about */
+@media screen and (max-width:550px){
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        background-color: #001F3F;
+        gap: 1rem;
+    }
+    .about .phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about .addres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about .insta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about img{
+        width: 2rem;
+    }
+}
+@media screen and (min-width:550px){
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        background-color: #001F3F;
+        gap: 5rem;
+    }
+    .about .phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about .addres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about .insta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about img{
+        width: 2rem;
+    }
+}
+@media screen and (max-width:424px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        background-color: #001F3F;
+        gap: 10px;
+    }
+    .about .phone{
+        background-color: gray;
+        padding: 5px;
+        border-radius: 0.4rem;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about .addres{
+        background-color: gray;
+        padding: 5px;
+        border-radius: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about .insta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: gold;
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about img{
+        width: 2rem;
+    }
+}
