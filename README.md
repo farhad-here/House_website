@@ -9,7 +9,7 @@
 ---
 
 
-## Used Technologies
+## 👨‍💻Used Technologies
 - Html
 - css
 - w3js
